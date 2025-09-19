@@ -1,5 +1,5 @@
 # 📘 NumPy + Matrices Study Plan
-
+(via ChatGPT) 
 A progressive roadmap for learning **NumPy**, **matrix operations**, and **regression** in Python.  
 The plan builds from basic arrays → matrix algebra → regression from scratch → applied datasets.  
 Includes **core exercises** and **stretch challenges**.
