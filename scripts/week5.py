@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 # ## 📅 Week 5 – Regression with Matrices
 # **Read/Watch**
@@ -15,11 +16,24 @@ fitted_line = np.polyfit(x, y, 1)
 print(fitted_line)
 # 2. Implement linear regression manually using the normal equation:  
 
+
+print(x.reshape((5, 1)))
+print(y)
+
+print(np.dot(x, y))
+print(np.dot(x, x))
+
 # β = (XᵀX)⁻¹Xᵀy
 
 # 3. Compare your coefficients with `np.polyfit`.  
+
+coeffs = np.polyfit(x, y, 2)
+
+print(coeffs)
 # 4. Extend to quadratic regression (`y = a + bx + cx²`).  
 # 5. Plot regression line against data (matplotlib).  
+
+plt.plot(x, y, label= "y=2x", color="blue")
 
 # **Stretch Challenges**
 # - Implement cubic regression manually (β with x, x², x³).  
