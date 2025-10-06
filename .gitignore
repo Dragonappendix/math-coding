@@ -3,3 +3,5 @@ myenv/
 venv/
 ENV/
 env/
+_pycache_
+.pyc
